@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="Wikipedia_Test" verbose="3" parallel="tests" >
+  <test name="Wiki_FF"   >
+  <parameter name="browser" value="FF"></parameter>
+    <classes>
+      <class name="com.selenium.WebDriverTest" />
+   </classes>
+ </test>
+ 
+  <test name="Wiki_C"   >
+  <parameter name="browser" value="CH"></parameter>
+    <classes>
+      <class name="com.selenium.WebDriverTest" />
+   </classes>
+ </test>
+ 
+ 
+</suite>

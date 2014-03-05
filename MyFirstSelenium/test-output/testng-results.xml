@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Wikipedia_Test" duration-ms="9190" started-at="2014-03-04T21:39:42Z" finished-at="2014-03-04T21:39:51Z">
+    <groups>
+    </groups>
+    <test name="Wiki_C" duration-ms="8589" started-at="2014-03-04T21:39:42Z" finished-at="2014-03-04T21:39:51Z">
+      <class name="com.selenium.WebDriverTest">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.selenium.WebDriverTest@16f13bb]" name="launchBrowser" is-config="true" duration-ms="1966" started-at="2014-03-04T16:39:42Z" finished-at="2014-03-04T16:39:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testWiki()[pri:0, instance:com.selenium.WebDriverTest@16f13bb]" name="testWiki" duration-ms="4236" started-at="2014-03-04T16:39:44Z" finished-at="2014-03-04T16:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWiki -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.WebDriverTest@16f13bb]" name="closeBrowser" is-config="true" duration-ms="2359" started-at="2014-03-04T16:39:48Z" finished-at="2014-03-04T16:39:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.WebDriverTest -->
+    </test> <!-- Wiki_C -->
+    <test name="Wiki_FF" duration-ms="9190" started-at="2014-03-04T21:39:42Z" finished-at="2014-03-04T21:39:51Z">
+      <class name="com.selenium.WebDriverTest">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.selenium.WebDriverTest@14ace71]" name="launchBrowser" is-config="true" duration-ms="5188" started-at="2014-03-04T16:39:42Z" finished-at="2014-03-04T16:39:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testWiki()[pri:0, instance:com.selenium.WebDriverTest@14ace71]" name="testWiki" duration-ms="3803" started-at="2014-03-04T16:39:47Z" finished-at="2014-03-04T16:39:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWiki -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.WebDriverTest@14ace71]" name="closeBrowser" is-config="true" duration-ms="173" started-at="2014-03-04T16:39:51Z" finished-at="2014-03-04T16:39:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.WebDriverTest -->
+    </test> <!-- Wiki_FF -->
+  </suite> <!-- Wikipedia_Test -->
+</testng-results>
