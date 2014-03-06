@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="3" name="Failed suite [Wikipedia_Test]" parallel="tests">
+  <parameter name="browser" value="CH"/>
+  <test name="Wiki_C(failed)" parallel="tests">
+    <parameter name="browser" value="CH"/>
+    <classes>
+      <class name="com.selenium.WebDriverTest">
+        <methods>
+          <include name="testRegistration"/>
+          <include name="launchBrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.selenium.WebDriverTest -->
+    </classes>
+  </test> <!-- Wiki_C(failed) -->
+</suite> <!-- Failed suite [Wikipedia_Test] -->

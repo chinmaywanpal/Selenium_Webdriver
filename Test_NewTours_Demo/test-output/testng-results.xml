@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="newtours_demoaut_Test" duration-ms="24244" started-at="2014-03-06T04:50:51Z" finished-at="2014-03-06T04:51:15Z">
+    <groups>
+    </groups>
+    <test name="newtours_demoaut_C" duration-ms="24244" started-at="2014-03-06T04:50:51Z" finished-at="2014-03-06T04:51:15Z">
+      <class name="com.selenium.WebDriverTest">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.selenium.WebDriverTest@3252d6]" name="launchBrowser" is-config="true" duration-ms="1929" started-at="2014-03-05T23:50:51Z" finished-at="2014-03-05T23:50:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testRegistration()[pri:0, instance:com.selenium.WebDriverTest@3252d6]" name="testRegistration" duration-ms="22298" started-at="2014-03-05T23:50:53Z" finished-at="2014-03-05T23:51:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.selenium.WebDriverTest@3252d6]" name="closebrowser" is-config="true" duration-ms="0" started-at="2014-03-05T23:51:15Z" finished-at="2014-03-05T23:51:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.selenium.WebDriverTest -->
+    </test> <!-- newtours_demoaut_C -->
+  </suite> <!-- newtours_demoaut_Test -->
+</testng-results>
